@@ -1,0 +1,35 @@
+.socialmedia-container {
+  display: flex;
+  align-items: center;
+  background-color: #E0E0E0;
+  height: 9vh;
+  width: 100%;
+}
+
+.socialmedia-box {
+  text-align: center;
+}
+
+.socialmedia-box h3 {
+  font-family: 'Courier Next', courier, monospace;
+  margin: 20px 300px;
+  font-size: 25px;
+}
+
+.socialmedia-box img[alt='instagram'] {
+  align-items: center;
+  width: 40px;
+  margin: 1px 10px 1px 40px;
+}
+
+.socialmedia-box img[alt='linkedin'] {
+  align-items: center;
+  width: 35px;
+  margin: 1px 1px;
+}
+
+.socialmedia-box img[alt='github'] {
+  align-items: center;
+  width: 30px;
+  margin: 1px 14px;
+}

@@ -1,0 +1,79 @@
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+  max-width: auto;
+  background: linear-gradient(135.8deg, rgb(26, 26, 29) 27.1%, rgb(111, 34, 50) 77.5%);
+}
+
+.project-title {
+  justify-content: center;
+  margin: 100px 0px 0px 0px;
+}
+
+.project-title h6 {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 8px 15px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  margin-bottom: 15px;
+}
+
+.text-theme {
+  background: linear-gradient(to right, #12c2e9, #f64f59, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.7em;
+}
+
+.text-theme1 {
+  background: linear-gradient(to right, #12c2e9, #f64f59, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.project-text {
+  display: flex;
+  margin: 5px 30px 10px 10px;
+}
+
+.project-text h3{
+  color: #fff;
+  font-size: 50px;
+}
+
+
+.p-theme {
+  color: #fff;
+}
+
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5em;
+}
+
+.project-content {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  overflow: hidden;
+}
+
+
+.scale-up-on-hover {
+    transition: transform 0.8s;
+}
+
+.scale-up-on-hover:hover {
+    transform: scale(1.1); 
+}
