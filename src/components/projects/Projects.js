@@ -1,7 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
-import { SyncOutlined } from '@ant-design/icons';
-import { Tag } from 'antd';
+import { Card, Button } from 'react-bootstrap';
 import './Projects.css';
 import image1 from '../../assets/p1t.png';
 import image2 from '../../assets/p2t.png';
@@ -41,14 +39,9 @@ const Projects = () => {
 	                        </Card.Text>
 		                </Card.Body>
 		                <Card.Footer>
-		                	<div>
-                                <a href="https://www.potensdev.info">
-                                	<Tag icon={<SyncOutlined spin />} color="purple">
-								        View Project
-								    </Tag>
-                                </a>
-                            </div>
-				          
+		                	<Button variant="outline-light" href="https://www.potensdev.info">
+		                		<span className="text-theme1">View Project</span>
+		                	</Button> 
 				        </Card.Footer>
 		            </Card>
 		        </div>
@@ -66,14 +59,9 @@ const Projects = () => {
 	                        </Card.Text>
 		                </Card.Body>
 		                <Card.Footer>
-		                	<div>
-                                <a href="https://client-painting-service-206f905daa5f.herokuapp.com/">
-                                	<Tag icon={<SyncOutlined spin />} color="magenta">
-								        View Project
-								    </Tag>
-                                </a>
-                            </div>
-				          
+		                	<Button variant="outline-light" href="https://client-painting-service-206f905daa5f.herokuapp.com/">
+		                		<span className="text-theme1">View Project</span>
+		                	</Button> 
 				        </Card.Footer>
 		            </Card>
 		        </div>
